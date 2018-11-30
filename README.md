@@ -22,6 +22,10 @@ As we have no information regarding the origin time we focus on estimating the g
 
 We propose two approaches based on Bayesian Poisson Regression. First, to regresses the non-zero responses in terms of the covariates in matrix $X$, including a (previous) Bayesian Variable Selection procedure. Second, to take into account the spatial structure of the observed area, thus we include an Intrinsic Conditional Auto-Regressive (ICAR) component, in order to explain the correlation between neighboring regions.
 
+## About data included in repository
+
+All quakes data (with transformations) is available, but fits from Stan are too big to commit! Contact author if these fits are desired!
+
 ## REFERENCES
 [1] Prior choice recommendations, https://github.com/stan-dev/stan/wiki/Prior-ChoiceRecommendations. Consulted on November 29th, 2018.
 
