@@ -8,15 +8,15 @@ November 30, 2018
 
 In this study we face the problem of estimating the earthquake risk at a cube near Fiji. We have data from 1000 seismic events that occurred since 1964, although we have no knowledge or dependency on time for them. In order to describe better our data we introduce some terminology from earthquake research field [11]:
 
-* \emph{Epicenter:} The latitude and longitude of the point of first motion of the earthquake. We have this information in variables \emph{lat} $\in [-38.59\degree ; -10.72\degree] $ and \emph{long} $\in [165.7\degree
+* Epicenter: The latitude and longitude of the point of first motion of the earthquake. We have this information in variables \emph{lat} $\in [-38.59\degree ; -10.72\degree] $ and \emph{long} $\in [165.7\degree
 	 ; 188.1\degree]$ respectively. 
-* \emph{Depth:} The depth below the surface of the point of first motion. For our data, every observation was recorded in the variable \emph{depth}, with range $ [40; 680]  $ km. 
-* \emph{Magnitude:} A measure of the size of the event, quoted in this case in the Richter scale. All the earthquakes reported in our dataset have the corresponding magnitude in variable \emph{mag} $\geq 4.0$, being $6.40$ the highest value reported (all in $\log$ scale).
-* \emph{Stations:} Usually the number and locations of stations reporting the event. We only have the number in variable \emph{stations}, with a range of values in $[10; 132]$.
+* Depth: The depth below the surface of the point of first motion. For our data, every observation was recorded in the variable \emph{depth}, with range $ [40; 680]  $ km. 
+* Magnitude: A measure of the size of the event, quoted in this case in the Richter scale. All the earthquakes reported in our dataset have the corresponding magnitude in variable \emph{mag} $\geq 4.0$, being $6.40$ the highest value reported (all in $\log$ scale).
+* Stations: Usually the number and locations of stations reporting the event. We only have the number in variable \emph{stations}, with a range of values in $[10; 132]$.
 
-The term e"arthquake risk" is in fact loosely used. In order to distinguish from other studies, we follow the terminology from \cite{Vere-Jones1995} and define as risk: 
+The term e"arthquake risk" is in fact loosely used. In order to distinguish from other studies, we follow the terminology from [11] and define as risk: 
 
-"The \emph{geophysical risk} (or \emph{earthquake hazard}) is the expected rate of occurrence (number of events per unit time) within a prescribed region and over certain magnitude level."
+"The geophysical risk (or earthquake hazard) is the expected rate of occurrence (number of events per unit time) within a prescribed region and over certain magnitude level."
 
 As we have no information regarding the origin time we focus on estimating the geophysical earthquake risk of the observed area, without dependence on time. This could be thought as the long-term average, static, or background risk. 
 
