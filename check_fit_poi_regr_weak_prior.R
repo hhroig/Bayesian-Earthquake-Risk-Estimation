@@ -1,4 +1,4 @@
-## Diagnosin Rstan Poisson Model with no-spacial component
+## Diagnosing Rstan Poisson Model with no-spacial component
 ## Load Data (stan fit object)
 library(rstan)
 
