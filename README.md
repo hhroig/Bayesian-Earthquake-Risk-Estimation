@@ -28,11 +28,11 @@ All quakes data (with transformations) is available, but fits from Stan are too 
 
 ## Conclusions
 
-	* We showed two main models to estimate geophysical earthquake risk on an area around Fiji, based on an earthquake database with time-independent occurrences.
-	* We performed a Bayesian Variable Selection (with R-package BAS) procedure to sustain the usage of a Poisson regression to estimate earthquake occurrence over a grid-cell of the observed area, in terms of the average depth, magnitude and number of stations reporting.
-	* We also obtained a BMA model that could not estimate correctly the peaks over the observed area.
-	* We fitted a Bayesian Poisson Regression with weakly informative priors using RStan and including the 3 variables. Although the model diagnose was encouraging, the fitted outcomes showed the same behavior as for the BMA model.
-	* We introduced an ICAR component into our Poisson model (now a BYM model) to take into account spatial smoothing and random-non-spatial heterogeneity. The model diagnose was correct and the fitted outcomes could reproduce the overall shape of the observed data.
+* We showed two main models to estimate geophysical earthquake risk on an area around Fiji, based on an earthquake database with time-independent occurrences.
+* We performed a Bayesian Variable Selection (with R-package BAS) procedure to sustain the usage of a Poisson regression to estimate earthquake occurrence over a grid-cell of the observed area, in terms of the average depth, magnitude and number of stations reporting.
+* We also obtained a BMA model that could not estimate correctly the peaks over the observed area.
+* We fitted a Bayesian Poisson Regression with weakly informative priors using RStan and including the 3 variables. Although the model diagnose was encouraging, the fitted outcomes showed the same behavior as for the BMA model.
+* We introduced an ICAR component into our Poisson model (now a BYM model) to take into account spatial smoothing and random-non-spatial heterogeneity. The model diagnose was correct and the fitted outcomes could reproduce the overall shape of the observed data.
 
 ## REFERENCES
 [1] Prior choice recommendations, https://github.com/stan-dev/stan/wiki/Prior-ChoiceRecommendations. Consulted on November 29th, 2018.
